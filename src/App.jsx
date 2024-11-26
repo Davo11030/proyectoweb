@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import AdminPage from './pages/AdminPage';
-import LoginPage from './pages/LoginPage';
+import AdminPage from './app/pages/AdminPage';
+import LoginPage from './app/pages/LoginPage';
+import ProfilePage from './app/pages/ProfilePage';
+import TrainersPage from './app/pages/TrainersPage';
 import PaymentsPage from './pages/PaymentsPage';
-import ProfilePage from './pages/ProfilePage';
 import SchedulePage from './pages/SchedulePage';
-import TrainersPage from './pages/TrainersPage';
 
 const App = () => (
   <Router>

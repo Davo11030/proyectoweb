@@ -1,20 +1,26 @@
 //debera de declarase la navegacion, anexo ejemplo
 <div id="contentContainer" class="style-scope tp-yt-app-drawer" position="left" style="transition-duration: 200ms;" swipe-open="" opened="">
-  
-  <div id="guide-wrapper" class="style-scope ytd-app">
-    <div id="guide-spacer" class="style-scope ytd-app"></div>
-    <div id="guide-content" class="style-scope ytd-app">
-      <div id="header" class="style-scope ytd-app">
+    <div id="guide-wrapper" class="style-scope ytd-app">
+        <div id="guide-spacer" class="style-scope ytd-app"></div>
+        <div id="guide-content" class="style-scope ytd-app">
+            <div id="header" class="style-scope ytd-app">
         
         <yt-icon-button id="guide-button" pressed="true" toggleable="true" class="style-scope ytd-app" aria-label="Guía" role="button">
             <!--css-build:shady-->
             <!--css-build:shady-->
             <button id="button" class="style-scope yt-icon-button" aria-pressed="true">
-          <yt-icon id="guide-icon" icon="yt-icons:menu" class="style-scope ytd-app">
+            <yt-icon id="guide-icon" icon="yt-icons:menu" class="style-scope ytd-app">
             <!--css-build:shady-->
             <!--css-build:shady-->
             <span class="yt-icon-shape style-scope yt-icon yt-spec-icon-shape">
-                <div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg></div></span></yt-icon>
+                <div style="width: 100%; height: 100%; display: block; fill: currentcolor;">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;">
+                    <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z">
+                    </path>
+                    </svg>
+                </div>
+            </span>
+            </yt-icon>
         </button>
         <yt-interaction id="interaction" class="circular style-scope yt-icon-button">
             <!--css-build:shady--><!--css-build:shady-->
